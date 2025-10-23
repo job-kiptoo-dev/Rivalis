@@ -25,6 +25,9 @@ body {
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
 }
+a{
+  text-decoration: none;
+}
 
 /* Updated navbar styles to match HTML structure */
 .header {
@@ -648,7 +651,7 @@ body {
     padding: 1rem 1.5rem;
   }
 
- .dropdown-menu {
+ .dropdown-menu{
   display: none;
   position: absolute;
   background: white;

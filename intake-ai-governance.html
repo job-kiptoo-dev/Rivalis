@@ -20,7 +20,7 @@
             padding: 2rem;
         }
 
-        .container {
+       .container {
             max-width: 900px;
             margin: 0 auto;
             background: white;
@@ -248,14 +248,16 @@
 </head>
 <body>
     <div class="container">
-        <button onclick="window.print()" class="print-button">🖨️ Print This Form</button>
 
         <div class="form-header">
-            <div class="logo">Rivalis Law</div>
+            <a href="index.html" class="logo">Rivalis Law</a>
+            
             <div class="service-badge">🤖 AI Governance & Compliance</div>
             <h1 class="form-title">AI Governance Client Intake Form</h1>
             <p class="form-subtitle">Confidential Attorney-Client Information</p>
         </div>
+
+        <button onclick="window.print()" class="print-button">🖨️ Print This Form</button>
 
         <div class="confidential-notice">
             <strong>⚠️ CONFIDENTIALITY NOTICE:</strong> This intake form is protected by attorney-client privilege considerations. The information you provide will be kept confidential. Submission of this form does not create an attorney-client relationship until a formal engagement letter is executed.
