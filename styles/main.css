@@ -648,22 +648,18 @@ body {
     padding: 1rem 1.5rem;
   }
 
-  .dropdown-menu {
-    position: static;
-    display: none;
-    box-shadow: none;
-    background: var(--gray-50);
-    border: none;
-    border-radius: 0;
-  }
+ .dropdown-menu {
+  display: none;
+  position: absolute;
+  background: white;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  list-style: none;
+  padding: 0;
+}
 
-  .dropdown.active .dropdown-menu {
-    display: block;
-  }
-
-  .dropdown-menu a {
-    padding: 0.75rem 1.5rem 0.75rem 3rem;
-  }
+.dropdown.open .dropdown-menu {
+  display: block;
+}
 
   .hero-grid {
     grid-template-columns: 1fr;
