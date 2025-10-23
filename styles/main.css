@@ -764,4 +764,9 @@ body {
   .footer {
     padding: 2rem 1.5rem 1rem;
   }
+  .hero-image{
+    height: 0.2rem;
+    width: 0.2rem;
+    
+  }
 }
