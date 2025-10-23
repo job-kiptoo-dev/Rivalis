@@ -35,6 +35,7 @@
         }
 
         .logo {
+
             font-size: 1.8rem;
             font-weight: 700;
             color: #1a1a2e;
@@ -282,17 +283,21 @@
         .service-specific-section.active {
             display: block;
         }
+        a{
+            text-decoration: none;
+        }
     </style>
 </head>
 <body>
     <div class="container">
-        <button onclick="window.print()" class="print-button">🖨️ Print This Form</button>
 
         <div class="form-header">
-            <div class="logo">Rivalis Law</div>
+            <a href="index.html" class="logo">Rivalis Law</a>
             <h1 class="form-title">Client Intake Form</h1>
             <p class="form-subtitle">Confidential Attorney-Client Information</p>
         </div>
+        
+        <button onclick="window.print()" class="print-button">🖨️ Print This Form</button>
 
         <div class="confidential-notice">
             <strong>⚠️ CONFIDENTIALITY NOTICE:</strong> This intake form is protected by attorney-client privilege considerations. The information you provide will be kept confidential. Submission of this form does not create an attorney-client relationship until a formal engagement letter is executed.
